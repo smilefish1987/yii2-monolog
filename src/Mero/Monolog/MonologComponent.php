@@ -20,12 +20,12 @@ class MonologComponent extends Component
     /**
      * @var array Logger channels
      */
-    protected $channels;
+    public $channels;
 
     /**
      * @var Strategy Handler strategy to create factory
      */
-    protected $strategy;
+    public $strategy;
 
     public function __construct(array $channels = [], array $config = [])
     {
